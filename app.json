@@ -21,10 +21,26 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jennifergill5656.Project"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f843d6ae-0954-4b80-82b8-72848d7663e9"
+      }
+    },
+      "expo": {
+        "android": {
+          "config": {
+            "googleMaps": {
+              "apiKey": "AIzaSyA1gRWcOb3kuzIvykjNeJ8ezm4l5YCpJFw"
+            }
+          }
+        }
+      }
     }
   }
-}
+

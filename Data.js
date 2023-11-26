@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+
+import MapView from 'react-native-maps';
 import { SafeAreaView, StatusBar, Text, StyleSheet, View } from 'react-native';
 import * as Location from 'expo-location';
 import { WebView } from 'react-native-webview';
